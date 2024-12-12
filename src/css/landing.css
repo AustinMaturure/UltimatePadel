@@ -1,0 +1,49 @@
+.landing-cnt {
+  min-height: 100svh;
+  min-width: 100svh;
+  background-size: cover;
+}
+
+.landing {
+  min-width: 100%;
+  min-height: 100svh;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.landing-text {
+  color: #faf9f6;
+  padding: 1rem;
+  border-radius: 22px;
+  justify-self: flex-end;
+  font-family: "Bowlby One", sans-serif;
+  max-width: 50%;
+}
+
+.landing-text h1 {
+  font-size: 5em;
+  margin-bottom: 0.5rem;
+}
+
+.landing-text p {
+  font-family: "Author", sans-serif;
+  font-weight: bold;
+}
+
+.learn-more {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.learn-more button {
+  background-color: #c0dfa1;
+  color: white;
+  box-sizing: border-box;
+}
+
+.learn-more img {
+  width: 60px;
+  height: 100%;
+  color: #faf9f6;
+}
