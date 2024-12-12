@@ -14,7 +14,11 @@ export default function Landing() {
         <div className="landing">
           <div className="landing-text">
             <h1>BOOK YOUR COURT NOW</h1>{" "}
-            <p>@ THE ONLY PADEL COURT IN PIET RETIEF</p>{" "}
+            <p>
+              @ THE ONLY PADEL COURT IN PIET RETIEF, The ONLY Padel Court in
+              Piet Retief/Mkhondo. Come experience this Fun Family Sport &
+              Ultimate Cafe Fully Halaal
+            </p>{" "}
             <div className="learn-more">
               <button>LEARN MORE</button>
               <img src={arrow} alt="" />

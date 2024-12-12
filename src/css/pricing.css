@@ -1,0 +1,44 @@
+.pricing-cnt {
+  padding: 1rem;
+}
+
+.pricing {
+  background-color: #c0dfa1;
+  color: #1a1a1a;
+  border-radius: 22px;
+}
+
+.pricing-header {
+  color: white;
+}
+
+.prices {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.price {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 22px;
+  color: #21370e;
+}
+
+.price button {
+  background-color: #c0dfa1;
+  color: white;
+}
+
+.book-btn {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.book-btn img {
+  width: 50px;
+  transform: rotate(180deg);
+}

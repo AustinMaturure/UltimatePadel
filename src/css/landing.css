@@ -2,6 +2,8 @@
   min-height: 100svh;
   min-width: 100svh;
   background-size: cover;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .landing {
@@ -9,6 +11,9 @@
   min-height: 100svh;
   padding: 1rem;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .landing-text {
@@ -42,7 +47,8 @@
   box-sizing: border-box;
 }
 
-.learn-more img {
+.learn-more img,
+.book-btn img {
   width: 60px;
   height: 100%;
   color: #faf9f6;

@@ -7,7 +7,7 @@ export default function Navbar() {
         <nav className="navbar">
           <div className="navbar-logo">
             <a href="/">
-              <h1>UlTIMATE PADEL PIET RETIEF</h1>
+              <h1> ULTIMATE PADEL PIET RETIEF</h1>
             </a>
             <p>@ Family & Fun</p>
           </div>
