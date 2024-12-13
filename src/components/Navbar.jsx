@@ -14,7 +14,7 @@ export default function Navbar() {
           <div className="nav-items">
             <ul className="nav-menu">
               <li>
-                <a href="#home">Home</a>
+                <a href="#home">Schedule</a>
               </li>
               <li>
                 <a href="#about">About</a>
