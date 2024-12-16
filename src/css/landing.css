@@ -31,8 +31,9 @@
 }
 
 .landing-text p {
-  font-family: "Author", sans-serif;
-  font-weight: bold;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .learn-more {
@@ -42,7 +43,7 @@
 }
 
 .learn-more button {
-  background-color: #c0dfa1;
+  background-color: #6c8f48;
   color: white;
   box-sizing: border-box;
 }

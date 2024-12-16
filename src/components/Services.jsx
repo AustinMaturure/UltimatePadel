@@ -2,10 +2,11 @@ import "../css/services.css";
 import ball from "../assets/ball.jpg";
 import kids from "../assets/kids.jpg";
 import cafe from "../assets/cafe.png";
+import pro from "../assets/pro.jpg";
 export default function Services() {
   return (
     <>
-      <section className="services-cnt">
+      <section className="services-cnt" id="services">
         {" "}
         <div className="services-header">
           <h1>SERVICES</h1>
@@ -70,7 +71,9 @@ export default function Services() {
                 accessories{" "}
               </p>
             </div>
-            <div className="service-img"></div>
+            <div className="service-img">
+              <img src={pro} alt="" srcset="" />
+            </div>
           </div>
           <div className="service">
             <div className="service-text">

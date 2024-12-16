@@ -1,0 +1,33 @@
+footer {
+  color: white;
+  background-color: #1a1a1a;
+  padding: 1rem;
+}
+footer h1 {
+  font-size: calc(10vw + 1rem);
+  margin: 0;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.quick-links a {
+  background-color: #1a1a1a;
+  color: white;
+  text-decoration: underline 1px solid;
+}
+
+.quick-links ul {
+  margin: 0;
+  padding-left: 0;
+}
+.footer-content {
+  display: flex;
+  gap: 1rem;
+}
+.map-cnt iframe {
+  border-radius: 22px;
+  position: a;
+  z-index: 2;
+  bottom: 0;
+  border: none;
+}

@@ -14,7 +14,7 @@ export default function Navbar() {
           <div className="nav-items">
             <ul className="nav-menu">
               <li>
-                <a href="#home">Schedule</a>
+                <a href="#schedule">Schedule</a>
               </li>
               <li>
                 <a href="#about">About</a>
@@ -23,7 +23,7 @@ export default function Navbar() {
                 <a href="#services">Services</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#footer">Contact</a>
               </li>
             </ul>
 

@@ -4,9 +4,12 @@
   grid-template-rows: repeat(6, 1fr);
   gap: 0.5rem;
 }
-
+.schedule-cnt {
+  border-top: 1px solid black;
+}
 .schedule {
   display: flex;
+
   justify-content: space-evenly;
 }
 
@@ -21,7 +24,6 @@
 }
 
 .wrapper {
-  border: 1px solid black;
   position: relative;
   height: 50px;
   overflow: hidden;
@@ -30,6 +32,7 @@
   text-align: center;
   display: flex;
   background-color: #1a1a1a;
+  border-bottom: 1px solid #faf9f6;
 }
 
 .wrapper div {
@@ -47,7 +50,7 @@
 
 .wrapper h2 {
   margin: 0px;
-  color: white;
+  color: #faf9f6;
   font-family: "Author";
 }
 
@@ -68,4 +71,26 @@
 }
 .event-description {
   animation-delay: calc(25s / 6 * (6 - 6) * -1);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #1a1a1a;
+}
+
+.dots-explanation {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.dot-green {
+  background-color: #c0dfa1;
+}
+
+.dots-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }

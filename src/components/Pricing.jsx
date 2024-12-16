@@ -3,7 +3,7 @@ import arrow from "../assets/arrow-down-circle-svgrepo-com.svg";
 export default function Pricing() {
   return (
     <>
-      <section className="pricing-cnt">
+      <section className="pricing-cnt" id="pricing">
         <div className="pricing">
           <div className="services-header pricing-header">
             <h1>PRICING</h1>

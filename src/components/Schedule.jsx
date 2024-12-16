@@ -12,10 +12,46 @@ export default function Schedule() {
 
   return (
     <>
+      <section className="events-banner" id="schedule">
+        <div className="wrapper">
+          <div className="upcoming-event">
+            <h2>Upcoming Event:</h2>
+          </div>
+          <div className="event-date">
+            <h2>21 December 2024</h2>
+          </div>
+          <div className="event-price">
+            <h2>Members: R10</h2>
+          </div>
+          <div className="event-type">
+            <h2>Start & Finish @ Court</h2>
+          </div>
+          <div className="event-time">
+            <h2>Entry: 17:00. Start: 17:30</h2>
+          </div>
+          <div className="event-description">
+            <h2>Fun Run</h2>
+          </div>
+        </div>
+      </section>
       <section className="schedule-cnt">
         <div className="services-header">
           <h1>Schedule</h1>
-          <p> Have a look at what time slots are available MON-FRI</p>
+          <p> Have a look at what time slots are available MON-SAT</p>
+        </div>
+        <div className="dots-explanation">
+          <div className="dots-container">
+            <div className="dot "></div>
+            <div className="text">
+              <p> - Open Slots</p>
+            </div>
+          </div>
+          <div className="dots-container">
+            <div className="dot dot-green"></div>
+            <div className="text">
+              <p> - Closed Slots</p>
+            </div>
+          </div>
         </div>
         <div className="schedule">
           {days.map((day) => {
@@ -38,28 +74,6 @@ export default function Schedule() {
               </div>
             );
           })}
-        </div>
-      </section>
-      <section className="events-banner">
-        <div className="wrapper">
-          <div className="upcoming-event">
-            <h2>Upcoming Event:</h2>
-          </div>
-          <div className="event-date">
-            <h2>21 December 2024</h2>
-          </div>
-          <div className="event-price">
-            <h2>Members: R10; Non Members:R20</h2>
-          </div>
-          <div className="event-type">
-            <h2>Start & Finish @ Court</h2>
-          </div>
-          <div className="event-time">
-            <h2>Entry: 17:00. Start: 17:30</h2>
-          </div>
-          <div className="event-description">
-            <h2>Fun Run</h2>
-          </div>
         </div>
       </section>
     </>

@@ -5,7 +5,7 @@ import stamp from "../assets/sr.svg";
 export default function About() {
   return (
     <>
-      <section className="about-cnt">
+      <section className="about-cnt" id="about">
         <div className="about-grid">
           <div className="grid-block grid-1">
             <h1>ABOUT US</h1>

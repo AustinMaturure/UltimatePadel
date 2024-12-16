@@ -14,8 +14,7 @@
   font-size: 1.6em;
   font-weight: bold;
   margin: 0;
-  color: #011936;
-  border-left: 5px solid #1a1a1a;
+  color: #1a1a1a;
 }
 
 .navbar-logo p {
@@ -26,6 +25,8 @@
 .nav-menu a {
   padding: 0.5rem 1rem;
   transition: all 0.2s;
+  font-family: "Satoshi";
+  font-size: 0.92em;
   font-weight: 500;
   border-radius: 22px;
 }
@@ -48,7 +49,7 @@
 }
 
 .btn-call {
-  background-color: #c0dfa1;
+  background-color: #6c8f48;
   color: white;
   border-radius: 12px;
   padding: 0.5rem;
