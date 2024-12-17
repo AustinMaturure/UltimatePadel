@@ -1,0 +1,87 @@
+.cafe-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.cafe-name {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: #faf9f6;
+  max-width: 50%;
+  padding: 1rem;
+
+  font-size: 2em;
+}
+.name-1 {
+  left: 0;
+  top: 10%;
+  padding: 2rem;
+
+  z-index: -1;
+}
+
+.cafe-menu {
+  animation-delay: 0.2s;
+}
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.day-item {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.day-item h2 {
+  font-size: 2.25em;
+}
+.day-item p {
+  font-weight: 400;
+  font-size: 1.25em;
+  font-family: "satoshi";
+}
+
+.cafe-name h1 {
+  -webkit-text-stroke: 2px #1a1a1a;
+  font-family: "Telma";
+}
+.cafe-img-cnt {
+  max-width: 100%;
+  padding: 7rem;
+  position: relative;
+  z-index: 2;
+}
+
+.cafe-img-cnt img {
+  max-width: 100%;
+
+  border-radius: 22px;
+}
+.cafe-menu h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.cafe-left {
+  position: relative;
+}
+
+.cafe-logo {
+  position: absolute;
+
+  bottom: 20%;
+  left: 10%;
+  color: #5f7e3f;
+
+  font-size: 2em;
+}
+
+.cafe-logo img {
+  height: 10rem;
+  object-fit: cover;
+}

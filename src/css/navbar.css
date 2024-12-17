@@ -6,6 +6,12 @@
   background-color: #faf9f6;
 }
 
+.sd {
+  opacity: 0;
+  animation: slide 1s ease-in forwards;
+  animation-play-state: paused;
+}
+
 .navbar-header {
   border-bottom-left-radius: 22px;
 }

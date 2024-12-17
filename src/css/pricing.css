@@ -42,3 +42,13 @@
   width: 50px;
   transform: rotate(180deg);
 }
+
+.price-2 {
+  animation-delay: 0.2s;
+}
+.price-3 {
+  animation-delay: 0.3s;
+}
+.price-4 {
+  animation-delay: 0.4s;
+}

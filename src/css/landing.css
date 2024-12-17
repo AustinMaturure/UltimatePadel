@@ -22,10 +22,11 @@
   border-radius: 22px;
   justify-self: flex-end;
   font-family: "Bowlby One", sans-serif;
+
   max-width: 50%;
 }
 
-.landing-text h1 {
+.landing-text-header {
   font-size: 5em;
   margin-bottom: 0.5rem;
 }
@@ -40,6 +41,11 @@
   display: flex;
   gap: 0.3rem;
   align-items: center;
+  transform: translateX(-5%);
+  opacity: 0;
+  animation: slide 1s ease forwards;
+  animation-delay: 0.2s;
+  animation-play-state: paused;
 }
 
 .learn-more button {

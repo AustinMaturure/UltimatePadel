@@ -1,6 +1,8 @@
 import "../css/schedule.css";
+import useElementInView from "../utils/ElementInView";
 
 export default function Schedule() {
+  const DaysRef = useElementInView(".day").ref;
   const getRandomOpenSlots = (count, totalSlots) => {
     const indices = new Set();
     while (indices.size < count) {
@@ -54,10 +56,15 @@ export default function Schedule() {
           </div>
         </div>
         <div className="schedule">
-          {days.map((day) => {
-            const randomOpenSlots = getRandomOpenSlots(5, 16); // Randomly pick 5 open slots for each day
+          {days.map((day, index) => {
+            const randomOpenSlots = getRandomOpenSlots(5, 16);
             return (
-              <div className="day" key={day}>
+              <div
+                className={`day day-${index} su`}
+                key={day}
+                ref={DaysRef}
+                style={{ animationDelay: `${0 + index / 10}s` }}
+              >
                 <div className="day-name">
                   <h2>{day}</h2>
                 </div>

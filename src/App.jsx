@@ -6,6 +6,7 @@ import Pricing from "./components/Pricing";
 import Courts from "./components/Courts";
 import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
+import Cafe from "./components/Cafe";
 function App() {
   return (
     <>
@@ -13,7 +14,7 @@ function App() {
       <Landing />
       <About />
       <Services />
-      <Pricing />
+      <Pricing /> <Cafe />
       <Courts />
       <Schedule />
       <Footer />

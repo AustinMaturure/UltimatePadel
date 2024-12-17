@@ -5,6 +5,9 @@
   background-attachment: fixed;
   background-position: center;
   color: white;
+
+  transform: scale(0.5); /* Default scale */
+  transition: transform 0.5s ease-in;
 }
 .courts-cnt::before {
   content: "";

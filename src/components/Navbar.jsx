@@ -1,10 +1,12 @@
 import "../css/navbar.css";
+import useElementInView from "../utils/ElementInView";
 
 export default function Navbar() {
+  const navRef = useElementInView(".navbar");
   return (
     <>
-      <header className="navbar-header">
-        <nav className="navbar">
+      <header className="navbar-header" id="navbar" ref={navRef.ref}>
+        <nav className="navbar sd">
           <div className="navbar-logo">
             <a href="/">
               <h1> ULTIMATE PADEL PIET RETIEF</h1>

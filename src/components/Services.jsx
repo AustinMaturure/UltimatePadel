@@ -3,14 +3,20 @@ import ball from "../assets/ball.jpg";
 import kids from "../assets/kids.jpg";
 import cafe from "../assets/cafe.png";
 import pro from "../assets/pro.jpg";
+import useElementInView from "../utils/ElementInView";
 export default function Services() {
+  const serviceHeadRef = useElementInView(".service-h1");
+  const serviceSubRef = useElementInView(".service-sub");
+
   return (
     <>
-      <section className="services-cnt" id="services">
+      <section className="services-cnt " id="services">
         {" "}
         <div className="services-header">
-          <h1>SERVICES</h1>
-          <p>
+          <h1 className="service-h1 sl" ref={serviceHeadRef.ref}>
+            SERVICES
+          </h1>
+          <p ref={serviceSubRef.ref} className="service-sub sr">
             {" "}
             Get a run down of many of things we have to offer. More to come!
           </p>
@@ -51,9 +57,11 @@ export default function Services() {
             <div className="service-text">
               <h1>KIDS AREA</h1>
               <p>
-                We have a designated kids area with activities to keep the kids
-                entertained along with our friendly staff kids can have blast
-                both playing padel and in the kids area
+                We offer a dedicated kids' area packed with engaging activities
+                to keep your little ones entertained. With the support of our
+                friendly and attentive staff, children can enjoy a fantastic
+                time both on the padel courts and in the kids' zone, ensuring a
+                fun-filled experience for all!
               </p>
             </div>
             <div className="service-img">
@@ -65,10 +73,11 @@ export default function Services() {
             <div className="service-text">
               <h1>PRO SHOP</h1>
               <p>
-                Find all your Padel needs at the PRO SHOP. from padels, balls
-                and any gear you need to improve your padel experience. We
-                stock: Padel brackets, balls, shoes & socks and other
-                accessories{" "}
+                Discover everything you need to elevate your padel game at our
+                Pro Shop! From premium paddles and balls to essential gear and
+                accessories, we’ve got you covered. Our selection includes
+                high-quality paddles, shoes, socks, and other must-have items to
+                enhance your performance and style on the court.
               </p>
             </div>
             <div className="service-img">
@@ -79,8 +88,9 @@ export default function Services() {
             <div className="service-text">
               <h1>EVENTS</h1>
               <p>
-                We regularly host family friendly events, from padel tornuments
-                to fun runs, theres always something to look forard to
+                We regularly host family-friendly events that bring everyone
+                together! From exciting padel tournaments to lively fun runs,
+                there’s always something to look forward to for all ages.
               </p>
             </div>
             <div className="service-img"></div>

@@ -1,4 +1,5 @@
 import "../css/footer.css";
+import ball from "../assets/tennis-ball.svg";
 
 export default function Footer() {
   return (
@@ -25,16 +26,20 @@ export default function Footer() {
             </div>
             <div className="quick-links">
               <ul>
-                <li>tel: 068 000 0333</li>
-                <li>location: 22 von Brandis Street Piet Retief, Mkhondo</li>
+                <li>Tel: 068 000 0333</li>
+                <li>Location: 22 von Brandis Street Piet Retief, Mkhondo</li>
                 <li>Operating Hours: MON - SUN 07:00 - 22:00</li>
                 <li>
-                  <a href="#services">Instagram</a>
+                  <a href="https://www.instagram.com/padel_ultimate/">
+                    Instagram
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
-          <h1>ULTIMATE PADEL</h1>
+          <h1>
+            ULTIMATE PADEL <img src={ball} alt="" />
+          </h1>
           <p className="copy-right">
             &copy; {new Date().getFullYear()} Ultimate padel Piet Retief. All
             rights reserved. Designed and developed by{" "}

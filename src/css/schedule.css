@@ -73,11 +73,18 @@
   animation-delay: calc(25s / 6 * (6 - 6) * -1);
 }
 
+@keyframes dot-pulse {
+  to {
+    background-color: #faf9f6;
+  }
+}
+
 .dot {
   width: 10px;
   height: 10px;
   border-radius: 50px;
   background-color: #1a1a1a;
+  animation: dot-pulse 1.5s ease infinite alternate;
 }
 
 .dots-explanation {
@@ -87,6 +94,7 @@
 
 .dot-green {
   background-color: #c0dfa1;
+  animation: none;
 }
 
 .dots-container {
