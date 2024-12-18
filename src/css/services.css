@@ -53,3 +53,27 @@
 .service-img img {
   max-width: 120px;
 }
+@media screen and (max-width: 760px) {
+  .service {
+    max-height: unset;
+    height: auto;
+  }
+  .service-img {
+    position: relative;
+    display: flex;
+  }
+  .service-img img {
+    max-width: 100%;
+  }
+  .service-text h1 {
+    padding: 1rem;
+  }
+  .service p {
+    max-width: 100%;
+    padding: 1rem;
+    font-size: 1.7em;
+  }
+  .service-img {
+    padding: 1rem;
+  }
+}

@@ -102,3 +102,17 @@
   align-items: center;
   gap: 5px;
 }
+@media screen and (max-width: 760px) {
+  .schedule {
+    overflow: scroll;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .services-header {
+    padding: 0rem;
+  }
+  .services-header p {
+    padding: 0.1rem;
+  }
+}

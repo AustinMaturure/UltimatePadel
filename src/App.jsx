@@ -7,7 +7,15 @@ import Courts from "./components/Courts";
 import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
 import Cafe from "./components/Cafe";
+import Lenis from "lenis";
 function App() {
+  const lenis = new Lenis({
+    autoRaf: true,
+  });
+
+  lenis.on("scroll", (e) => {
+    console.log(e);
+  });
   return (
     <>
       <Navbar />

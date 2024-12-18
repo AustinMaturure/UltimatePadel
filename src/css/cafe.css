@@ -85,3 +85,12 @@
   height: 10rem;
   object-fit: cover;
 }
+@media screen and (max-width: 760px) {
+  .cafe-info {
+    grid-template-columns: 1fr;
+  }
+
+  .cafe-img-cnt {
+    padding: 1rem;
+  }
+}
